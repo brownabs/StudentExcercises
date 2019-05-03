@@ -18,7 +18,7 @@ namespace StudentExercisesCLI
             // Create a new variable to contain a list of Instructors and get that list from the database
             List<Instructor> instructors = repository.GetAllInstructors();
 
-            // Does this method do what it claims to do, or does it need some work?
+            // Does this method do what it claims to do, or does it need some k?
             PrintInstructorReport("All Instructors", instructors);
 
             Pause();
